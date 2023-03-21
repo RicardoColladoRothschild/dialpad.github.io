@@ -1,0 +1,153 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    height: 88vh;
+    display:grid;
+    place-items: center;
+}
+.container{
+    width:235px;
+    max-width: 288px;
+    min-width: 200px;
+    height: 415px;
+    margin-top:45px;
+    border:1px solid rgb(204,204,204);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+
+    
+}
+
+.dialpad-box--header{
+    width:100%;
+    height: 15px;
+    background-color: #495468;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.numbershow-box--dialpad{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height: 31px;
+    margin-top:18px;
+    
+     margin-bottom: 10px;
+    
+    
+}
+
+.dialpad-box{
+    width:200px;
+    height: 25px;
+    
+    outline:none;
+    border: 0.8px solid rgb(204,204,204);
+    border-radius: 3.5px;
+    
+}
+
+.cotnainer--dialpad-numbers{
+    margin:0 auto;
+    width:215;
+    height: auto;
+    display:flex;
+    gap:15px;
+    flex-wrap: wrap;
+    padding:0 20px;
+    justify-content: center;
+}
+
+.dialpad-number--cards{
+    width:51px;
+    height: 51px;
+    display:flex;
+    padding:5px;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid rgb(204,204,204);
+    border-radius: 3px;
+}
+.dialpad-number--cards:hover{
+    background-color: rgb(204,204,204);
+    
+}
+
+.dialpad-number--cards .container-diapad--number {
+    font-size: 2.0rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2px;
+    
+
+}
+
+.dialpad-number--cards .container-dialpad--letters{
+    text-align: center;
+    font-size:0.8rem;
+    font-weight: bold;
+    color:rgb(124, 121, 121);
+}
+
+.dialpad-number--cards .container-dialpad--mute{
+    width:10px;
+    height: 15px;
+    background-image: url("./mute.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin:0 auto;
+    margin-bottom: 3px;
+
+}
+
+.dialpad-number--cards .container-dialpad--endcall{
+    width:15px;
+    height: 15px;
+    background-image: url("./endCall.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin:0 auto;
+    margin-bottom: 5px;
+}
+.dialpad-number--cards .container-dialpad--call{
+    width:15px;
+    height: 15px;
+    background-image: url("./call.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    margin:0 auto;
+    margin-bottom: 5px;
+}
+
+footer{
+    width:100%;
+    height: 36px;
+    display:flex;
+    justify-content: center;
+    background-color: #495468;
+    margin-top: 52px;
+    padding:3px;
+}
+footer p{
+    text-align: center;
+    color:wheat;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+}
